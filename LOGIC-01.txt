@@ -1,0 +1,47 @@
+# Logical Statements, Negations and Conjugations
+
+### Logical statement (proposition)
+A **logical statement** is a statement with a well defined truth value.
+It is either **true** (**T**) or **false** (**F**), but not both.
+
+Examples:
+- Mars is a planet (True logical statement)
+- Pluto is a planet (False logical statement)
+- $1 + 1 = 2$ (True logical statement)
+- The number 5 is smaller than the number 2 (False logical statement)
+- Good morning! (Not a logical statement)
+- $x + 1 = 1$ (Not a logical statement because the truth value depends on the value of x)
+
+### Logical operations
+
+##### Negation
+For a logical statement $A$, $\neg A$ denotes the negation.
+
+Examples:
+- $A$ = The wine bottle is full
+- $\neg A$ = The wine bottle is not full
+- $A = "2 + 2 = 5"$
+- $\neg A = "2 + 2 \neq 5"$
+
+The action of the negation on a logical statement can be summarized
+in the following table:
+
+| A |$\neg A|
+|---|-------|
+| T | F |
+| F | T |
+
+
+##### Conjuction
+For two logical statements $A$, $B$, $A \land B$ denotes the conjunction.
+The conjunction is true only when both statements are true.
+
+The truth value of the resulting proposition can be summarized in the
+following table:
+
+| A | B | $A \land B |
+|---|---|---|
+| T | T | T |
+| T | F | F |
+| F | T | F |
+| F | F | F |
