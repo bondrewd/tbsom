@@ -1,0 +1,9 @@
+# Linear Algebra
+
+### Motivation 1
+
+We can use linear algebra when we have variables ($a$, $b$, $c$, $d$), unknowns ($x$, $y$, $z$), and simple relations between them, and we want to find all the solutions for the unknowns ($x$, $y$, $z$).
+
+### Motivation 2
+
+We can generalize things by working at the abstract level using **vector spaces** and **linear maps**. However, we will start at the concrete level using $\mathbb{R}^n$ and **matrices**.
