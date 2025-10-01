@@ -26,7 +26,7 @@ Examples:
 The action of the negation on a logical statement can be summarized
 in the following table:
 
-| A |$\neg A|
+| $A$ |$\neg A$|
 |---|-------|
 | T | F |
 | F | T |
@@ -39,7 +39,7 @@ The conjunction is true only when both statements are true.
 The truth value of the resulting proposition can be summarized in the
 following table:
 
-| A | B | $A \land B |
+| $A$ | $B$ | $A \land B$ |
 |---|---|---|
 | T | T | T |
 | T | F | F |

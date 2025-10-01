@@ -1,0 +1,79 @@
+### Logical operations
+
+##### Conditional or implication
+
+For tw logical statements $A$, $B$, $A \rightarrow B$ denotes the conditional.
+
+|$A$|$B$|$A \rightarrow B$|
+|-|-|-|
+|T|T|T|
+|T|F|F|
+|F|T|T|
+|F|F|T|
+
+Example:
+
+$\Rightarrow$ means $\rightarrow$ gives a tautology.
+
+|$A$|$B$|$A \land B$|$A \land B \rightarrow B$|
+|-|-|-|-|
+|T|T|T|T|
+|T|F|F|T|
+|F|T|F|T|
+|F|F|F|T|
+
+Then, because it is a tautology, we can write $A \land B \Rightarrow B$.
+
+##### Biconditional
+
+For two logical statements $A$, $B$, $A \leftrightarrow B$ denotes the biconditional.
+
+|$A$|$B$|$A \leftrightarrow B$|
+|-|-|-|
+|T|T|T|
+|T|F|F|
+|F|T|F|
+|F|F|T|
+
+$\Leftrightarrow$ means $\leftrightarrow$ gives a tautology.
+
+Example:
+
+$A \leftrightarrow B \Leftrightarrow (A \rightarrow B) \land (B \rightarrow A)$
+
+$A \rightarrow B \Leftrightarrow \neg B \rightarrow \neg A$
+
+### Deduction rules
+
+How to get new true propositions from other true propositions.
+
+**Modus ponens**: If $A \rightarrow B$ is true and $A$ is true, then $B$ is true.
+
+|$A$|$B$|$A \rightarrow B$||
+|-|-|-|-|
+|T|T|T|o|
+|T|F|T||
+|F|T|T||
+|F|F|T||
+
+**Chain syllogism**: If $A \rightarrow B$ is true and $B \rightarrow C$ is true, then $A \rightarrow C$ is true.
+
+|$A$|$B$|$C$|$A \rightarrow B$|$B \rightarrow C$|$A \rightarrow C$||
+|-|-|-|-|-|-|-|
+|T|T|T|T|T|T|o|
+|T|T|F|T|F|F||
+|T|F|T|F|T|T||
+|T|F|F|F|T|F||
+|F|T|T|T|T|T|o|
+|F|T|F|T|F|T||
+|F|F|T|T|T|T|o|
+|F|F|F|T|T|T|o|
+
+**Reductio ad absurdum**: If $A \rightarrow B$ is true and $A \rightarrow \neg B$ is true, then $\neg A$ is true.
+
+|$A$|$B$|$\neg B$|$A \rightarrow B$|$A \rightarrow \neg B$|$\neg A$||
+|-|-|-|-|-|-|-|
+|T|T|F|T|F|F||
+|T|F|T|F|T|F||
+|F|T|F|T|T|T|o|
+|F|F|T|T|T|T|o|

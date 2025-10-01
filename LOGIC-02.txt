@@ -1,0 +1,40 @@
+### Logical operations
+
+##### Disjunction
+
+For two logical statements $A$, $B$, $A\lor B$ denotes the disjunction.
+
+|$A$|$B$|$A\lor B$|
+|-|-|-|
+|T|T|T|
+|T|F|T|
+|F|T|T|
+|F|F|F|
+
+Example:
+
+Evaluate the truth value of $\neg A \lor A$.
+
+|$A$|$\neg A$|$\neg A \lor A$|
+|-|-|-|
+|T|F|T|
+|F|T|T|
+
+We say $\neg A \lor A$ is a tautology, i.e., it is always true independent of the truth values of the logical variables that are contained.
+
+##### Logical equivalence
+
+Two logical statements are called *logically equivalent* if the truth tables (all possible assignments of truth values for the logical variables) are the same.
+
+Example:
+
+$\neg(A \lor B)$ and $(\neg A)\land(\neg B)$ are logically equivalent.
+
+|$A$|$B$|$A \lor B$|$\neg A$|$\neg B$|$\neg(A \land B)$|$\neg A \lor \neg B$|
+|-|-|-|-|-|-|-|
+|T|T|T|F|F|F|F|
+|T|F|T|F|T|F|F|
+|F|T|T|T|F|F|F|
+|F|F|F|T|T|T|T|
+
+$\neg(A \lor B) \iff (\neg A)\land(\neg B)$
