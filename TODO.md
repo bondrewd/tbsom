@@ -1,5 +1,4 @@
 # Study
-- [ ] Understanding Analysis [0/8]
 - [2025-10-01-Wed] The bright side of mathematics - Logic [3/3]
 - [ ] The bright side of mathematics - Sets and Maps [0/7]
 - [ ] The bright side of mathematics - Numbers [0/11]
