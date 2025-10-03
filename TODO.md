@@ -1,0 +1,11 @@
+# Study
+- [ ] Understanding Analysis [0/8]
+- [2025-10-01-Wed] The bright side of mathematics - Logic [3/3]
+- [ ] The bright side of mathematics - Sets and Maps [0/7]
+- [ ] The bright side of mathematics - Numbers [0/11]
+- [ ] The bright side of mathematics - Real Numbers [0/4]
+- [ ] The bright side of mathematics - Complex Numbers [0/3]
+- [ ] The bright side of mathematics - Real Analysis [0/64]
+- [ ] The bright side of mathematics - Linear Algebra [1/65]
+- [ ] The bright side of mathematics - Complex Analysis [0/35]
+- [ ] The bright side of mathematics - Abstract Linear Algebra [0/52]
