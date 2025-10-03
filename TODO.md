@@ -6,6 +6,6 @@
 - [ ] The bright side of mathematics - Real Numbers [0/4]
 - [ ] The bright side of mathematics - Complex Numbers [0/3]
 - [ ] The bright side of mathematics - Real Analysis [0/64]
-- [ ] The bright side of mathematics - Linear Algebra [1/65]
+- [ ] The bright side of mathematics - Linear Algebra [3/65]
 - [ ] The bright side of mathematics - Complex Analysis [0/35]
 - [ ] The bright side of mathematics - Abstract Linear Algebra [0/52]
