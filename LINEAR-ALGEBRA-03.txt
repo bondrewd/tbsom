@@ -1,0 +1,37 @@
+$\mathbb{R}^2$ with two operations $(\cdot,+)$ is a *vector space*
+
+**Definition**: For vectors $v^{(1)}, v^{(2)}, \ldots, v^{(k)} \in \mathbb{R}^2$ and scalars $\lambda^{(1)}, \lambda^{(2)}, \ldots, \lambda^{(k)} \in \mathbb{R}$, the vector $v = \sum_{j=1}^k\lambda_j v^{(j)}$ is called a *linear combination*.
+
+**Question**: Which vectors $V\in\mathbb{R}^2$ are perpendicular to the vector $u=\begin{pmatrix}2\\1\\\end{pmatrix}$?
+
+**Answer**: $u=\begin{pmatrix}u_1\\u_2\\\end{pmatrix}$ and $v=\begin{pmatrix}v_1\\v_2\\\end{pmatrix}$ are orthogonal $\Leftrightarrow\begin{pmatrix}v_1\\v_2\\\end{pmatrix}=\lambda\begin{pmatrix}-u_2\\u_1\\\end{pmatrix}$ for some $\lambda \in \mathbb{R} \Leftrightarrow v_1 = -\lambda u_2$ and $v_2 = \lambda u1$ for some $\lambda \in \mathbb{R}$
+
+From this, we have:
+
+\\[
+\begin{aligned}
+v_1 &= -\lambda u_2 \\
+u_1v_1 &= -u_1\lambda u_2 \\
+u_1v_1 &= -v_2u_2 \\
+\end{aligned}
+\\]
+
+and
+
+\\[
+\begin{aligned}
+v_2 &= \lambda u_1 \\
+u_2v_2 &= u_2\lambda u_1 \\
+u_2v_2 &= -v_1u_1 \\
+\end{aligned}
+\\]
+
+Therefore $u_1v_1 + u_2v_2 = 0$. We call this operation the (standard) *inner product* and represent it as:
+
+\\[
+<u,v>=u_1v_1+u_2v_2
+\\]
+
+The standard inner product gives more structure to the vector space (it gives geometry).
+
+**Definition**: Length of $v=\sqrt{v_1^2+v_2^2}$. We then define $\Vert v \Vert = \sqrt{<v,v>}$ and it is called the (standard = Euclidean) *norm*

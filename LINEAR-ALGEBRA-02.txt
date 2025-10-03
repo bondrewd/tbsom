@@ -1,0 +1,53 @@
+Vectors in $\mathbb{R}^2$ (vector space)
+
+What are vectors? Vectors are not arrows!
+
+**Definition**: $\mathbb{R}^2=\mathbb{R}\times\mathbb{R}$, elements are writter in column form:
+
+\\[
+\begin{pmatrix}
+4 \\
+2 \\
+\end{pmatrix}
+\in \mathbb{R}^2
+\\]
+
+Scaling: $\lambda \in \mathbb{R}, v \in \mathbb{R}^2$, then:
+
+\\[
+\lambda v
+=
+\lambda
+\begin{pmatrix}
+v_1 \\
+v_2 \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+\lambda v_1 \\
+\lambda v_2 \\
+\end{pmatrix}
+\\]
+
+Addition: $v,w \in \mathbb{R}^2$, then:
+
+\\[
+v+w
+=
+\begin{pmatrix}
+v_1 \\
+v_2 \\
+\end{pmatrix}
++
+\begin{pmatrix}
+w_1 \\
+w_2 \\
+\end{pmatrix}
+=
+\begin{pmatrix}
+v_1 + w_1 \\
+v_2 + w_2 \\
+\end{pmatrix}
+\\]
+
+$\mathbb{R}^2$ together with the two operations $(\cdot,+)$ is called the *vector space* $\mathbb{R}^2$
